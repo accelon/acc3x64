@@ -1,2 +1,6 @@
-# accelon3x64
+# acc3x64
 A drop in replacement for accelon3 running on x86 64 bits and ARM 64
+
+## prerequisite
+    bun
+    redbean (including zip)
