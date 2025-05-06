@@ -1,0 +1,27 @@
+{
+  "name": "acc3x64",
+  "version": "1.0.0",
+  "description": "Drop in replacement of Accelon3 on x64 and arm64",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "build.cmd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accelon/acc3x64.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/accelon/acc3x64/issues"
+  },
+  "homepage": "https://github.com/accelon/acc3x64#readme",
+  "dependencies": {
+    "@marimo-team/codemirror-ai": "^0.1.11",
+    "bun-plugin-svelte": "^0.0.6",
+    "codemirror": "^6.0.1"
+  }
+}
