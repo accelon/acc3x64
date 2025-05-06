@@ -22,7 +22,7 @@ function loadZips()
         buf=f:read("*all")
         local zip=Zip.open(buf)
         ptks[ptkfiles[i]]=zip
-        print("loading",ptkfiles[i],#zip.files)
+        print("loaded",ptkfiles[i],#zip.files)
     end
 end
 loadZips()

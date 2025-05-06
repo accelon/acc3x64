@@ -18,10 +18,9 @@ local str=require('str')
 print("Accelon25 started on http://"..bindaddr..":".. port)
 print("按住Ctrl键再点网址以打开")
 print("Holding Ctrl key and click on the link to open")
+
 local ptkfiles=pitaka.getList()
-
 SetLogLevel(0)
-
 
 function OnHttpRequest()
     local path = GetPath()
