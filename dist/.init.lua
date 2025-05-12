@@ -11,7 +11,7 @@ HidePath('/usr/share/zoneinfo/')
 HidePath('/usr/share/ssl/')
 
 local re=require('re')
-local ptkpath = re.compile[[([a-z\-]+)/(\d\d\d).js]]
+local ptkpath = re.compile[[([a-z\-_]+)/(\d\d\d).js]]
 local str=require('str')
 
 -- LaunchBrowser('');
